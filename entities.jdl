@@ -1,0 +1,94 @@
+entity Sportsman {
+}
+relationship OneToOne {
+  Sportsman{user} to User
+}
+
+entity Company {
+  name String
+  description String
+  imageUrl String
+  publicActivities Boolean // true: available on the internet
+}
+relationship ManyToOne {
+  Sportsman{company} to Company
+}
+
+
+enum SportType {
+    RUN, RIDE, SWIM
+}
+entity Activity {
+	distance Double
+    avgPace Double
+    movingTime Duration
+    calories Integer
+    avgHeartRate Double
+    sportType SportType
+
+    valid Boolean
+    publicActivity Boolean // true: visible within the company
+    
+    activityDate LocalDate //activity dateTime
+    createdDate Instant    //dateTime of sharing
+}
+relationship ManyToOne {
+	Activity{sportsman} to Sportsman
+}
+
+entity Transaction {
+  amountOfMoney Double
+  createdDate Instant
+}
+relationship OneToOne {
+  Transaction{activity} to Activity
+}
+
+entity TransactionGroup {
+  amountOfMoney Double
+  message String
+
+  wasPaid Boolean
+  dateOfPayment Instant
+
+  createdDate Instant
+}
+relationship OneToMany {
+	TransactionGroup{transactions} to Transaction
+}
+
+enum RecipientType {
+    DONATE, CHARITY, WITHDRAW
+}
+entity MoneyRecipient {
+  name String
+  description String
+  avatarUrl String
+  siteUrl String
+  recipientType RecipientType
+}
+relationship ManyToOne {
+	TransactionGroup{recipient} to MoneyRecipient
+}
+
+enum ValueType {
+    INT, DOUBLE, BOOLEAN, STRING
+}
+entity Setting {
+  code String
+  description String
+  type ValueType
+  value String
+}
+relationship ManyToOne {
+	Setting{company} to Company
+}
+
+// Set pagination options
+paginate Activity, Transaction, TransactionGroup with infinite-scroll
+paginate Setting, Sportsman, MoneyRecipient with pagination
+
+// Use Data Transfer Objects (DTO)
+dto Company with mapstruct
+
+service all with serviceImpl
