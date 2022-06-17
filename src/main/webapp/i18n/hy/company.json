@@ -1,0 +1,27 @@
+{
+  "donorunApp": {
+    "company": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Company",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Company",
+        "notFound": "No Companies found"
+      },
+      "created": "Նոր Company ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Company թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Company հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "imageUrl": "Image Url",
+      "publicActivities": "Public Activities"
+    }
+  }
+}

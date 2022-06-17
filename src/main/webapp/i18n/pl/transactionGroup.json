@@ -1,0 +1,30 @@
+{
+  "donorunApp": {
+    "transactionGroup": {
+      "home": {
+        "title": "Transaction Group",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Transaction Group",
+        "createOrEditLabel": "Dodaj lub edytuj: Transaction Group",
+        "notFound": "No Transaction Groups found"
+      },
+      "created": "Utworzono nowy obiekt typu Transaction Group z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Transaction Group z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Transaction Group z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Transaction Group {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction Group"
+      },
+      "id": "ID",
+      "amountOfMoney": "Amount Of Money",
+      "message": "Message",
+      "wasPaid": "Was Paid",
+      "dateOfPayment": "Date Of Payment",
+      "createdDate": "Created Date",
+      "transactions": "Transactions",
+      "recipient": "Recipient"
+    }
+  }
+}

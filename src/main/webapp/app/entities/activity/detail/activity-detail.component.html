@@ -1,0 +1,74 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="activity">
+      <h2 data-cy="activityDetailsHeading"><span jhiTranslate="donorunApp.activity.detail.title">Activity</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ activity.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.distance">Distance</span></dt>
+        <dd>
+          <span>{{ activity.distance }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.avgPace">Avg Pace</span></dt>
+        <dd>
+          <span>{{ activity.avgPace }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.movingTime">Moving Time</span></dt>
+        <dd>
+          <span>{{ activity.movingTime | duration }} ({{ activity.movingTime }})</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.calories">Calories</span></dt>
+        <dd>
+          <span>{{ activity.calories }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.avgHeartRate">Avg Heart Rate</span></dt>
+        <dd>
+          <span>{{ activity.avgHeartRate }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.sportType">Sport Type</span></dt>
+        <dd>
+          <span jhiTranslate="{{ 'donorunApp.SportType.' + activity.sportType }}">{{ activity.sportType }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.valid">Valid</span></dt>
+        <dd>
+          <span>{{ activity.valid }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.publicActivity">Public Activity</span></dt>
+        <dd>
+          <span>{{ activity.publicActivity }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.activityDate">Activity Date</span></dt>
+        <dd>
+          <span>{{ activity.activityDate | formatMediumDate }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.createdDate">Created Date</span></dt>
+        <dd>
+          <span>{{ activity.createdDate | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.activity.sportsman">Sportsman</span></dt>
+        <dd>
+          <div *ngIf="activity.sportsman">
+            <a [routerLink]="['/sportsman', activity.sportsman?.id, 'view']">{{ activity.sportsman?.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/activity', activity.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

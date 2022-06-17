@@ -1,0 +1,25 @@
+{
+  "donorunApp": {
+    "sportsman": {
+      "home": {
+        "title": "Sportsmen",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Sportsman",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Sportsman",
+        "notFound": "No Sportsmen found"
+      },
+      "created": "Նոր Sportsman ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Sportsman թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Sportsman հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Sportsman {{ id }}?"
+      },
+      "detail": {
+        "title": "Sportsman"
+      },
+      "id": "ID",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}

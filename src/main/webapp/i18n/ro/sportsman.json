@@ -1,0 +1,25 @@
+{
+  "donorunApp": {
+    "sportsman": {
+      "home": {
+        "title": "Sportsmen",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Sportsman",
+        "createOrEditLabel": "Creeare sau editare Sportsman",
+        "notFound": "No Sportsmen found"
+      },
+      "created": "A fost creată o nouă entitate Sportsman cu identificatorul {{ param }}",
+      "updated": "Sportsman cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Sportsman cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Sportsman {{ id }}?"
+      },
+      "detail": {
+        "title": "Sportsman"
+      },
+      "id": "ID",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}

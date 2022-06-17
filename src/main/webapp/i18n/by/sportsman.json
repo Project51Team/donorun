@@ -1,0 +1,25 @@
+{
+  "donorunApp": {
+    "sportsman": {
+      "home": {
+        "title": "Sportsmen",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Sportsman",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Sportsman",
+        "notFound": "No Sportsmen found"
+      },
+      "created": "Новы Sportsman створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Sportsman абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Sportsman выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Sportsman {{ id }}?"
+      },
+      "detail": {
+        "title": "Sportsman"
+      },
+      "id": "ID",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}

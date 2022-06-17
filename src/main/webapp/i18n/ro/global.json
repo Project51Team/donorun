@@ -10,6 +10,13 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "sportsman": "Sportsman",
+        "company": "Company",
+        "activity": "Activity",
+        "transaction": "Transaction",
+        "transactionGroup": "Transaction Group",
+        "moneyRecipient": "Money Recipient",
+        "setting": "Setting",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

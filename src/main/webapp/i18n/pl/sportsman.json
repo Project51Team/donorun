@@ -1,0 +1,25 @@
+{
+  "donorunApp": {
+    "sportsman": {
+      "home": {
+        "title": "Sportsman",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Sportsman",
+        "createOrEditLabel": "Dodaj lub edytuj: Sportsman",
+        "notFound": "No Sportsmen found"
+      },
+      "created": "Utworzono nowy obiekt typu Sportsman z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Sportsman z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Sportsman z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Sportsman {{ id }}?"
+      },
+      "detail": {
+        "title": "Sportsman"
+      },
+      "id": "ID",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}

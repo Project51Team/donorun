@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617203246",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "transaction",
+  "fields": [
+    {
+      "fieldName": "amountOfMoney",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Transaction",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "activity",
+      "otherEntityRelationshipName": "transaction",
+      "ownerSide": true,
+      "relationshipName": "activity",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "transactionGroup",
+      "otherEntityRelationshipName": "transactions",
+      "relationshipName": "transactionGroup",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

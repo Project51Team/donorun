@@ -7,6 +7,13 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Обекти",
+        "sportsman": "Sportsman",
+        "company": "Company",
+        "activity": "Activity",
+        "transaction": "Transaction",
+        "transactionGroup": "Transaction Group",
+        "moneyRecipient": "Money Recipient",
+        "setting": "Setting",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "moneyRecipient": {
+      "home": {
+        "title": "Money Recipients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Money Recipient",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Money Recipient",
+        "notFound": "No Money Recipients found"
+      },
+      "created": "Նոր Money Recipient ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Money Recipient թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Money Recipient հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Money Recipient {{ id }}?"
+      },
+      "detail": {
+        "title": "Money Recipient"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "avatarUrl": "Avatar Url",
+      "siteUrl": "Site Url",
+      "recipientType": "Recipient Type"
+    }
+  }
+}

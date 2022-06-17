@@ -1,0 +1,34 @@
+{
+  "donorunApp": {
+    "activity": {
+      "home": {
+        "title": "Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Activity",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Activity",
+        "notFound": "No Activities found"
+      },
+      "created": "Новы Activity створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Activity абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Activity выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Activity {{ id }}?"
+      },
+      "detail": {
+        "title": "Activity"
+      },
+      "id": "ID",
+      "distance": "Distance",
+      "avgPace": "Avg Pace",
+      "movingTime": "Moving Time",
+      "calories": "Calories",
+      "avgHeartRate": "Avg Heart Rate",
+      "sportType": "Sport Type",
+      "valid": "Valid",
+      "publicActivity": "Public Activity",
+      "activityDate": "Activity Date",
+      "createdDate": "Created Date",
+      "sportsman": "Sportsman"
+    }
+  }
+}

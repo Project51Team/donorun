@@ -1,0 +1,56 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="transactionGroup">
+      <h2 data-cy="transactionGroupDetailsHeading">
+        <span jhiTranslate="donorunApp.transactionGroup.detail.title">Transaction Group</span>
+      </h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ transactionGroup.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.amountOfMoney">Amount Of Money</span></dt>
+        <dd>
+          <span>{{ transactionGroup.amountOfMoney }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.message">Message</span></dt>
+        <dd>
+          <span>{{ transactionGroup.message }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.wasPaid">Was Paid</span></dt>
+        <dd>
+          <span>{{ transactionGroup.wasPaid }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.dateOfPayment">Date Of Payment</span></dt>
+        <dd>
+          <span>{{ transactionGroup.dateOfPayment | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.createdDate">Created Date</span></dt>
+        <dd>
+          <span>{{ transactionGroup.createdDate | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transactionGroup.recipient">Recipient</span></dt>
+        <dd>
+          <div *ngIf="transactionGroup.recipient">
+            <a [routerLink]="['/money-recipient', transactionGroup.recipient?.id, 'view']">{{ transactionGroup.recipient?.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/transaction-group', transactionGroup.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

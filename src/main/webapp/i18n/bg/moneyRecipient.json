@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "moneyRecipient": {
+      "home": {
+        "title": "Money Recipients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Създайте нов Money Recipient",
+        "createOrEditLabel": "Създайте или редактирайте Money Recipient",
+        "notFound": "Money Recipients не са намерени"
+      },
+      "created": "Създаден е нов Money Recipient с идентификатор {{ param }}",
+      "updated": "Money Recipient с идентификатор {{ param }} e oбновен",
+      "deleted": "Money Recipient с идентификатор {{ param }} е изтрит",
+      "delete": {
+        "question": "Наистина ли искате да изтриете Money Recipient {{ id }}?"
+      },
+      "detail": {
+        "title": "Money Recipient"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "avatarUrl": "Avatar Url",
+      "siteUrl": "Site Url",
+      "recipientType": "Recipient Type"
+    }
+  }
+}

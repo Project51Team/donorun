@@ -1,0 +1,27 @@
+{
+  "donorunApp": {
+    "transaction": {
+      "home": {
+        "title": "Transaction",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Transaction",
+        "createOrEditLabel": "Dodaj lub edytuj: Transaction",
+        "notFound": "No Transactions found"
+      },
+      "created": "Utworzono nowy obiekt typu Transaction z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Transaction z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Transaction z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Transaction {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction"
+      },
+      "id": "ID",
+      "amountOfMoney": "Amount Of Money",
+      "createdDate": "Created Date",
+      "activity": "Activity",
+      "transactionGroup": "Transaction Group"
+    }
+  }
+}

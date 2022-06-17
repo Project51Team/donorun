@@ -1,0 +1,49 @@
+{
+  "applications": "*",
+  "changelogDate": "20220617203247",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "transaction_group",
+  "fields": [
+    {
+      "fieldName": "amountOfMoney",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "wasPaid",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "dateOfPayment",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TransactionGroup",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "transaction",
+      "otherEntityRelationshipName": "transactionGroup",
+      "relationshipName": "transactions",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "moneyRecipient",
+      "otherEntityRelationshipName": "transactionGroup",
+      "relationshipName": "recipient",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

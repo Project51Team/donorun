@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="company">
+      <h2 data-cy="companyDetailsHeading"><span jhiTranslate="donorunApp.company.detail.title">Company</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ company.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.company.name">Name</span></dt>
+        <dd>
+          <span>{{ company.name }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.company.description">Description</span></dt>
+        <dd>
+          <span>{{ company.description }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.company.imageUrl">Image Url</span></dt>
+        <dd>
+          <span>{{ company.imageUrl }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.company.publicActivities">Public Activities</span></dt>
+        <dd>
+          <span>{{ company.publicActivities }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/company', company.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "donorunApp": {
+    "sportsman": {
+      "home": {
+        "title": "Sportsmen",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Sportsman",
+        "createOrEditLabel": "Create or edit a Sportsman",
+        "notFound": "No Sportsmen found"
+      },
+      "created": "A new Sportsman is created with identifier {{ param }}",
+      "updated": "A Sportsman is updated with identifier {{ param }}",
+      "deleted": "A Sportsman is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sportsman {{ id }}?"
+      },
+      "detail": {
+        "title": "Sportsman"
+      },
+      "id": "ID",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}
