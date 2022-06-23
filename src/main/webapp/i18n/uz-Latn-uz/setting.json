@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "setting": {
+      "home": {
+        "title": "Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Setting qo`shish",
+        "createOrEditLabel": "Settingni tahrirlash",
+        "notFound": "No Settings found"
+      },
+      "created": "Setting {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Setting saqlandi",
+      "deleted": "{{ param }}- Setting o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Settingni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Setting"
+      },
+      "id": "ID",
+      "code": "Code",
+      "description": "Description",
+      "type": "Type",
+      "value": "Value",
+      "company": "Company"
+    }
+  }
+}

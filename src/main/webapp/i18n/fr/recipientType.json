@@ -1,0 +1,10 @@
+{
+  "donorunApp": {
+    "RecipientType": {
+      "null": "",
+      "DONATE": "DONATE",
+      "CHARITY": "CHARITY",
+      "WITHDRAW": "WITHDRAW"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "donorunApp": {
+    "SportType": {
+      "null": "",
+      "RUN": "RUN",
+      "RIDE": "RIDE",
+      "SWIM": "SWIM"
+    }
+  }
+}

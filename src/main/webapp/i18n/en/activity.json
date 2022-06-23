@@ -1,0 +1,38 @@
+{
+  "donorunApp": {
+    "activity": {
+      "home": {
+        "title": "Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Activity",
+        "createOrEditLabel": "Create or edit a Activity",
+        "notFound": "No Activities found"
+      },
+      "created": "A new Activity is created with identifier {{ param }}",
+      "updated": "A Activity is updated with identifier {{ param }}",
+      "deleted": "A Activity is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Activity {{ id }}?"
+      },
+      "detail": {
+        "title": "Activity"
+      },
+      "id": "ID",
+      "title": "Title",
+      "distance": "Distance",
+      "avgPace": "Avg Pace",
+      "movingTime": "Moving Time",
+      "calories": "Calories",
+      "avgHeartRate": "Avg Heart Rate",
+      "sportType": "Sport Type",
+      "valid": "Valid",
+      "publicActivity": "Public Activity",
+      "amountOfMoney": "Amount Of Money",
+      "wasPaid": "Was Paid",
+      "activityDate": "Activity Date",
+      "createdDate": "Created Date",
+      "sportsman": "Sportsman",
+      "transactions": "Transactions"
+    }
+  }
+}

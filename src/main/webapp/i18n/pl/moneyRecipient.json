@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "moneyRecipient": {
+      "home": {
+        "title": "Money Recipient",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Money Recipient",
+        "createOrEditLabel": "Dodaj lub edytuj: Money Recipient",
+        "notFound": "No Money Recipients found"
+      },
+      "created": "Utworzono nowy obiekt typu Money Recipient z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Money Recipient z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Money Recipient z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Money Recipient {{ id }}?"
+      },
+      "detail": {
+        "title": "Money Recipient"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "avatarUrl": "Avatar Url",
+      "siteUrl": "Site Url",
+      "recipientType": "Recipient Type",
+      "accountDetails": "Account Details"
+    }
+  }
+}

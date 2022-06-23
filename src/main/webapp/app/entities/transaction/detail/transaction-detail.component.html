@@ -1,0 +1,61 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="transaction">
+      <h2 data-cy="transactionDetailsHeading"><span jhiTranslate="donorunApp.transaction.detail.title">Transaction</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ transaction.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.sumOfMoney">Sum Of Money</span></dt>
+        <dd>
+          <span>{{ transaction.sumOfMoney }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.message">Message</span></dt>
+        <dd>
+          <span>{{ transaction.message }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.wasPaid">Was Paid</span></dt>
+        <dd>
+          <span>{{ transaction.wasPaid }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.dateOfPayment">Date Of Payment</span></dt>
+        <dd>
+          <span>{{ transaction.dateOfPayment | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.createdDate">Created Date</span></dt>
+        <dd>
+          <span>{{ transaction.createdDate | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.recipient">Recipient</span></dt>
+        <dd>
+          <div *ngIf="transaction.recipient">
+            <a [routerLink]="['/money-recipient', transaction.recipient?.id, 'view']">{{ transaction.recipient?.id }}</a>
+          </div>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.transaction.activities">Activities</span></dt>
+        <dd>
+          <span *ngFor="let activities of transaction.activities; let last = last">
+            <a [routerLink]="['/activity', activities?.id, 'view']">{{ activities.id }}</a
+            >{{ last ? '' : ', ' }}
+          </span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/transaction', transaction.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

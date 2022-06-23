@@ -1,0 +1,30 @@
+{
+  "donorunApp": {
+    "transaction": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Transaction",
+        "createOrEditLabel": "Creeare sau editare Transaction",
+        "notFound": "No Transactions found"
+      },
+      "created": "A fost creată o nouă entitate Transaction cu identificatorul {{ param }}",
+      "updated": "Transaction cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Transaction cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Transaction {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction"
+      },
+      "id": "ID",
+      "sumOfMoney": "Sum Of Money",
+      "message": "Message",
+      "wasPaid": "Was Paid",
+      "dateOfPayment": "Date Of Payment",
+      "createdDate": "Created Date",
+      "recipient": "Recipient",
+      "activities": "Activities"
+    }
+  }
+}

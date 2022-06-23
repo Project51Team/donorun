@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "company": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Company बनाएँ",
+        "createOrEditLabel": "Company बनाएँ या संपादित करें",
+        "notFound": "No Companies found"
+      },
+      "created": "एक नया Company [identifier: {{ param }}] तैयार है",
+      "updated": "एक Company [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Company [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Company [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "imageUrl": "Image Url",
+      "siteUrl": "Site Url",
+      "publicActivities": "Public Activities",
+      "employees": "Employees"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "moneyRecipient": {
+      "home": {
+        "title": "Money Recipients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Money Recipient",
+        "createOrEditLabel": "Creeare sau editare Money Recipient",
+        "notFound": "No Money Recipients found"
+      },
+      "created": "A fost creată o nouă entitate Money Recipient cu identificatorul {{ param }}",
+      "updated": "Money Recipient cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Money Recipient cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Money Recipient {{ id }}?"
+      },
+      "detail": {
+        "title": "Money Recipient"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "avatarUrl": "Avatar Url",
+      "siteUrl": "Site Url",
+      "recipientType": "Recipient Type",
+      "accountDetails": "Account Details"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "setting": {
+      "home": {
+        "title": "Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Setting",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Setting",
+        "notFound": "No Settings found"
+      },
+      "created": "Նոր Setting ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Setting թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Setting հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Setting {{ id }}?"
+      },
+      "detail": {
+        "title": "Setting"
+      },
+      "id": "ID",
+      "code": "Code",
+      "description": "Description",
+      "type": "Type",
+      "value": "Value",
+      "company": "Company"
+    }
+  }
+}
