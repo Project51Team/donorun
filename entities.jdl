@@ -1,0 +1,86 @@
+entity Company {
+  name String
+  description String
+  imageUrl String
+  siteUrl String
+  publicActivities Boolean // true: available on the internet
+}
+
+relationship ManyToMany {
+  Company{employees} to User
+}
+
+entity Activity {
+	title String
+	distance Double
+    avgPace Double
+    movingTime Duration
+    calories Integer
+    avgHeartRate Double
+    sportType SportType
+
+    valid Boolean
+    publicActivity Boolean // true: visible within the company
+    
+    amountOfMoney Double
+    wasPaid Boolean
+    
+    activityDate LocalDate //activity dateTime
+    createdDate Instant    //dateTime of sharing
+}
+
+enum SportType {
+    RUN, RIDE, SWIM
+}
+
+
+relationship ManyToOne {
+	Activity{sportsman} to User
+}
+
+
+entity Transaction {
+  sumOfMoney Double
+  message String
+
+  wasPaid Boolean
+  dateOfPayment Instant
+
+  createdDate Instant
+}
+
+relationship ManyToMany {
+  Transaction{activities} to Activity{transactions}
+}
+
+enum RecipientType {
+    DONATE, CHARITY, WITHDRAW
+}
+entity MoneyRecipient {
+  name String
+  description String
+  avatarUrl String
+  siteUrl String
+  recipientType RecipientType
+  accountDetails String
+}
+relationship ManyToOne {
+	Transaction{recipient} to MoneyRecipient
+}
+
+enum ValueType {
+    INT, DOUBLE, BOOLEAN, STRING
+}
+entity Setting {
+  code String
+  description String
+  type ValueType
+  value String
+}
+relationship ManyToOne {
+	Setting{company} to Company
+}
+
+// Set pagination options
+paginate Activity, Transaction, Setting, MoneyRecipient, Company with pagination
+service all with serviceImpl
