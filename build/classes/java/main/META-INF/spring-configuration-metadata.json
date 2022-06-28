@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "by.proj51.config.ApplicationProperties",
+      "sourceType": "by.proj51.config.ApplicationProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

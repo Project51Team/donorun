@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9deb859e-9d25-4e8f-8855-c92ba74a9d2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/devcontainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jhipster/Activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jhipster/Company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jhipster/MoneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jhipster/Setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jhipster/Transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.lintstagedrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yo-rc-global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yo-rc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/docker.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/profile_dev.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/profile_prod.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/sonar.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/swagger.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/war.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/zipkin.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngsw-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/npmw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/npmw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/app-env.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/central-server-config/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/fat-app.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/grafana/provisioning/dashboards/JVM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/grafana/provisioning/dashboards/dashboard.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/grafana/provisioning/datasources/datasource.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/jhipster-control-center.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/jib/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/mongodb-cluster.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/mongodb.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/mongodb/MongoDB.Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/mongodb/scripts/init_replicaset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/monitoring.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/prometheus/prometheus.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/redis-cluster.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/redis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/redis/Redis-Cluster.Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/redis/connectRedisCluster.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/sonar.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/swagger-editor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/zipkin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/ApplicationWebXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/DonorunApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/GeneratedByJHipster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/aop/logging/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/AsyncConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/CacheConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/DateTimeFormatConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/JacksonConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/LocaleConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/LoggingAspectConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/LoggingConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/OpenApiConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/StaticResourcesWebConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/WebsocketConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/WebsocketSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/dbmigrations/InitialSetupMigration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/dbmigrations/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/AbstractAuditingEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/MoneyRecipient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/Setting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/enumeration/RecipientType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/enumeration/SportType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/enumeration/ValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/domain/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/management/SecurityMetersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/ActivityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/AuthorityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/CompanyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/MoneyRecipientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/SettingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/AuthoritiesConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/DomainUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/SpringSecurityAuditorAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/UserNotActivatedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/jwt/JWTConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/jwt/JWTFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/jwt/TokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/security/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/ActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/CompanyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/EmailAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/InvalidPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/MoneyRecipientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/SettingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/UsernameAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/dto/AdminUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/dto/PasswordChangeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/dto/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/impl/ActivityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/impl/CompanyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/impl/MoneyRecipientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/impl/SettingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/impl/TransactionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/mapper/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/AccountResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/ActivityResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/ClientForwardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/CompanyResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/MoneyRecipientResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/PublicUserResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/SettingResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/TransactionResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/UserJWTController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/UserResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/BadRequestAlertException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/EmailAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/ErrorConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/ExceptionTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/FieldErrorVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/InvalidPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/LoginAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/errors/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/vm/KeyAndPasswordVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/vm/LoginVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/vm/ManagedUserVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/rest/vm/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/websocket/ActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/websocket/dto/ActivityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/websocket/dto/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/web/websocket/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-tls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/bootstrap-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/tls/keystore.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_bg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_by.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_hi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_hy.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_pl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_ro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_ua.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_uz_Latn_UZ.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/swagger/api.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/activationEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/creationEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mail/passwordResetEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/account.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/account.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/activate/activate.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password-reset/init/password-reset-init.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar/password-strength-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar/password-strength-bar.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar/password-strength-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password-strength-bar/password-strength-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/password/password.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/register/register.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/account/settings/settings.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/admin-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/configuration/configuration.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/docs/docs.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/health.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/modal/health-modal.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/modal/health-modal.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/health/modal/health-modal.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/log.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/logs/logs.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/jvm-memory/jvm-memory.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/jvm-memory/jvm-memory.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/jvm-threads/jvm-threads.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/jvm-threads/jvm-threads.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-cache/metrics-cache.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-cache/metrics-cache.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-datasource/metrics-datasource.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-datasource/metrics-datasource.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-endpoints-requests/metrics-endpoints-requests.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-endpoints-requests/metrics-endpoints-requests.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-garbagecollector/metrics-garbagecollector.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-garbagecollector/metrics-garbagecollector.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-modal-threads/metrics-modal-threads.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-modal-threads/metrics-modal-threads.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-request/metrics-request.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-request/metrics-request.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-system/metrics-system.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/blocks/metrics-system/metrics-system.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/metrics/metrics.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/tracker/tracker.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/tracker/tracker.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/tracker/tracker.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/tracker/tracker.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/delete/user-management-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/delete/user-management-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/delete/user-management-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/detail/user-management-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/detail/user-management-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/detail/user-management-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/list/user-management.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/list/user-management.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/list/user-management.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/service/user-management.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/service/user-management.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/update/user-management-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/update/user-management-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/update/user-management-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/admin/user-management/user-management.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/app.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/authority.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/datepicker-adapter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/dayjs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/error.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/font-awesome-icons.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/input.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/language.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/pagination.constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/translation.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/config/uib-pagination.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/account.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/account.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/account.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/auth-jwt.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/auth-jwt.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/state-storage.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/auth/user-route-access.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/config/application-config.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/config/application-config.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/interceptor/auth-expired.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/interceptor/auth.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/interceptor/error-handler.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/interceptor/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/interceptor/notification.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/request/request-util.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/request/request.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/tracker/tracker-activity.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/tracker/tracker.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/alert.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/alert.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/data-util.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/data-util.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/event-manager.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/event-manager.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/operators.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/operators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/parse-links.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/core/util/parse-links.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/activity.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/activity.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/delete/activity-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/delete/activity-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/delete/activity-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/detail/activity-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/detail/activity-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/detail/activity-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/list/activity.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/list/activity.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/list/activity.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/route/activity-routing-resolve.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/route/activity-routing-resolve.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/route/activity-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/service/activity.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/service/activity.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/update/activity-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/update/activity-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/activity/update/activity-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/company.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/company.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/delete/company-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/delete/company-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/delete/company-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/detail/company-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/detail/company-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/detail/company-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/list/company.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/list/company.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/list/company.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/route/company-routing-resolve.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/route/company-routing-resolve.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/route/company-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/service/company.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/service/company.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/update/company-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/update/company-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/company/update/company-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-navbar-items.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/enumerations/recipient-type.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/enumerations/sport-type.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/enumerations/value-type.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/delete/money-recipient-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/delete/money-recipient-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/delete/money-recipient-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/detail/money-recipient-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/detail/money-recipient-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/detail/money-recipient-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/list/money-recipient.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/list/money-recipient.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/list/money-recipient.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/money-recipient.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/money-recipient.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/route/money-recipient-routing-resolve.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/route/money-recipient-routing-resolve.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/route/money-recipient-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/service/money-recipient.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/service/money-recipient.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/update/money-recipient-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/update/money-recipient-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/money-recipient/update/money-recipient-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/delete/setting-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/delete/setting-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/delete/setting-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/detail/setting-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/detail/setting-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/detail/setting-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/list/setting.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/list/setting.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/list/setting.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/route/setting-routing-resolve.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/route/setting-routing-resolve.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/route/setting-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/service/setting.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/service/setting.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/setting.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/setting.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/update/setting-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/update/setting-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/setting/update/setting-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/delete/transaction-delete-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/delete/transaction-delete-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/delete/transaction-delete-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/detail/transaction-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/detail/transaction-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/detail/transaction-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/list/transaction.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/list/transaction.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/list/transaction.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/route/transaction-routing-resolve.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/route/transaction-routing-resolve.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/route/transaction-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/service/transaction.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/service/transaction.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/transaction.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/transaction.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/update/transaction-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/update/transaction-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/transaction/update/transaction-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/user/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/error/error.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/error/error.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/error/error.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/main/main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/active-menu.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/profiles/page-ribbon.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/profiles/page-ribbon.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/profiles/page-ribbon.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/profiles/profile-info.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/profiles/profile.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/login/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert-error.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert-error.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert-error.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert-error.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/alert/alert.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/auth/has-any-authority.directive.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/auth/has-any-authority.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/date/duration.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/date/format-medium-date.pipe.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/date/format-medium-date.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/date/format-medium-datetime.pipe.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/date/format-medium-datetime.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/language/find-language-from-key.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/language/translate.directive.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/language/translate.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/language/translation.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/pagination/item-count.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/pagination/item-count.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/shared-libs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/sort/sort-by.directive.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/sort/sort-by.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/sort/sort.directive.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/shared/sort/sort.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bootstrap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/css/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_0_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_0_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_0_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_0_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_1_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_1_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_1_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_1_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_2_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_2_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_2_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_2_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_3_head-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_3_head-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_3_head-384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/jhipster_family_member_3_head-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/images/logo-jhipster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/scss/_bootstrap-variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/scss/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/content/scss/vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/declarations.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/de/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/fr/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hi/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/it/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/activate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/activity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/company.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/configuration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/error.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/health.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/login.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/metrics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/moneyRecipient.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/password.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/recipientType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/reset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/sessions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/sportType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/tracker.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/transaction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/user-management.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/uz-Latn-uz/valueType.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/manifest.webapp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/dist/images/throbber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/swagger-ui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/IntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/RedisTestContainerExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/TechnicalStructureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/EmbeddedMongo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/MongoDbTestContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/NoOpMailConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/StaticResourcesWebConfigurerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/TestContainersSpringContextCustomizerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/WebConfigurerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/config/WebConfigurerTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/cucumber/CucumberIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/cucumber/CucumberTestContextConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/cucumber/stepdefs/StepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/domain/ActivityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/domain/CompanyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/domain/MoneyRecipientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/domain/SettingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/domain/TransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/management/SecurityMetersServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/security/DomainUserDetailsServiceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/security/SecurityUtilsUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/security/jwt/JWTFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/security/jwt/TokenProviderSecurityMetersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/security/jwt/TokenProviderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/service/MailServiceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/service/UserServiceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/service/mapper/UserMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/AccountResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/ActivityResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/ClientForwardControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/CompanyResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/MoneyRecipientResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/PublicUserResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/SettingResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/TestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/TransactionResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/UserJWTControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/UserResourceIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/WithUnauthenticatedMockUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/errors/ExceptionTranslatorIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/proj51/web/rest/errors/ExceptionTranslatorTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/by/proj51/cucumber/gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_bg.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_by.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_hi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_hy.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_pl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_ro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_ua.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/i18n/messages_uz_Latn_UZ.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/templates/mail/testEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testcontainers.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/environment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/logo-jhipster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/proxy.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.custom.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="donorun" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="donorun" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="donorun" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="donorun" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AyOlNIkG6LHAGfdPYp6ZaUkail" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/by/proj51/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;910f24598b9cf0839cbe8dd1054ddda9&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\by\proj51\src\main\resources" />
+      <recent name="C:\dev\by\proj51\src\main\docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker/app-env.yml: Compose Deployment">
+    <configuration name="proj51 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DonorunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="donorun.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="by.proj51.DonorunApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker/app-env.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/main/docker/app-env.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker/app-env.yml: Compose Deployment" />
+        <item itemvalue="Gradle.proj51 [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9deb859e-9d25-4e8f-8855-c92ba74a9d2a" name="Changes" comment="" />
+      <created>1655978512134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655978512134</updated>
+      <workItem from="1655978513998" duration="1956000" />
+      <workItem from="1655982152476" duration="1047000" />
+      <workItem from="1655983251799" duration="2688000" />
+      <workItem from="1656081460998" duration="618000" />
+      <workItem from="1656430087896" duration="1276000" />
+    </task>
+    <task id="LOCAL-00001" summary="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)">
+      <created>1655985850586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655985850586</updated>
+    </task>
+    <task id="LOCAL-00002" summary="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)">
+      <created>1655985930954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655985930954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)" />
+  </component>
+</project>
