@@ -99,7 +99,7 @@
       <command value="git push" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker/app-env.yml: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker/app.yml: Compose Deployment">
     <configuration name="proj51 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,8 +136,17 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker/app.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/main/docker/app.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker/app.yml: Compose Deployment" />
         <item itemvalue="Docker.docker/app-env.yml: Compose Deployment" />
         <item itemvalue="Gradle.proj51 [bootRun]" />
       </list>
@@ -155,7 +164,7 @@
       <workItem from="1655982152476" duration="1047000" />
       <workItem from="1655983251799" duration="2688000" />
       <workItem from="1656081460998" duration="618000" />
-      <workItem from="1656430087896" duration="2819000" />
+      <workItem from="1656430087896" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)">
       <created>1655985850586</created>

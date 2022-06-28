@@ -1,0 +1,31 @@
+{
+  "health": {
+    "title": "Стан",
+    "refresh.button": "Оновити",
+    "stacktrace": "Stacktrace",
+    "details": {
+      "details": "Деталі",
+      "properties": "Параметри",
+      "name": "Ім'я",
+      "value": "Значення",
+      "error": "Помилка"
+    },
+    "indicator": {
+      "diskSpace": "Місце на диску",
+      "mail": "Електронна пошта",
+      "livenessState": "Liveness state",
+      "readinessState": "Readiness state",
+      "ping": "Application",
+      "db": "База даних"
+    },
+    "table": {
+      "service": "Назва сервісу",
+      "status": "Статус"
+    },
+    "status": {
+      "UNKNOWN": "UNKNOWN",
+      "UP": "ПРАЦЮЄ",
+      "DOWN": "НЕ ПРАЦЮЄ"
+    }
+  }
+}
