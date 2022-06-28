@@ -1,5 +1,0 @@
-build/
-node_modules/
-src/**/__snapshots__/
-e2e/__tests__/__snapshots__/
-CHANGELOG.md
