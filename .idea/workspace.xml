@@ -6,6 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="9deb859e-9d25-4e8f-8855-c92ba74a9d2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.yo-rc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities.jdl" beforeDir="false" afterPath="$PROJECT_DIR$/entities.jdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/proj51/config/CacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/proj51/config/CacheConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/.h2.server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.h2.server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/bg/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/bg/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/by/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/by/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/en/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/en/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hu/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/hu/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/hy/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/hy/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pl/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/pl/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/pt-pt/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/pt-pt/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ro/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/ro/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ru/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/ru/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/i18n/ua/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/i18n/ua/global.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +79,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,36 +104,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/by/proj51/src/main/resources&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;910f24598b9cf0839cbe8dd1054ddda9&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/dev/by/proj51/src/main/docker",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "910f24598b9cf0839cbe8dd1054ddda9"
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\by\proj51\src\main\resources" />
       <recent name="C:\dev\by\proj51\src\main\docker" />
+      <recent name="C:\dev\by\proj51\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="git add ." />
       <command value="git commit -m &quot;rolled back changes due to DB was changed from Documented to Relational&quot;" />
+      <command value="git status" />
+      <command value="git add ." />
+      <command value="git commit -m &quot;Initial commit without entities&quot;" />
       <command value="git push" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker/app.yml: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.DonorunApp">
     <configuration name="proj51 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,6 +164,19 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="donorun.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="donorun.main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DonorunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="donorun.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="by.proj51.DonorunApp" />
@@ -128,27 +184,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker/app-env.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker/services.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="src/main/docker/app-env.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker/app.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="src/main/docker/app.yml" />
+          <option name="sourceFilePath" value="src/main/docker/services.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker/app.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker/app-env.yml: Compose Deployment" />
         <item itemvalue="Gradle.proj51 [bootRun]" />
+        <item itemvalue="Docker.docker/services.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +211,11 @@
       <workItem from="1655982152476" duration="1047000" />
       <workItem from="1655983251799" duration="2688000" />
       <workItem from="1656081460998" duration="618000" />
-      <workItem from="1656430087896" duration="4772000" />
+      <workItem from="1656430087896" duration="5826000" />
+      <workItem from="1656444846123" duration="177000" />
+      <workItem from="1656445040150" duration="3340000" />
+      <workItem from="1656489134963" duration="1509000" />
+      <workItem from="1656506031832" duration="10026000" />
     </task>
     <task id="LOCAL-00001" summary="PRJ51-1: drop extra entities and add absent fields&#10;--------&#10;* TransactionGroup was dropped&#10;* UI theme Flacky was changed to Materia&#10;* banner was changed&#10;* docker files were split to: env (to run proj on local) and fat-app (to run it on ECS)">
       <created>1655985850586</created>

@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "setting": {
+      "home": {
+        "title": "Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Setting létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Settingt",
+        "notFound": "No Settings found"
+      },
+      "created": "Egy új Setting lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Setting módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Setting törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Settingt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Setting"
+      },
+      "id": "ID",
+      "code": "Code",
+      "description": "Description",
+      "type": "Type",
+      "value": "Value",
+      "company": "Company"
+    }
+  }
+}

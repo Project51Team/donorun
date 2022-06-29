@@ -1,0 +1,9 @@
+export enum FitnessAccountType {
+  STRAVA = 'STRAVA',
+
+  APPLE_HEALTH = 'APPLE_HEALTH',
+
+  GOOGLE_FIT = 'GOOGLE_FIT',
+
+  GARMIN_CONNECT = 'GARMIN_CONNECT',
+}

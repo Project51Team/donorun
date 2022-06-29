@@ -1,0 +1,30 @@
+{
+  "donorunApp": {
+    "transaction": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Transaction",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Transaction",
+        "notFound": "No Transactions found"
+      },
+      "created": "Նոր Transaction ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Transaction թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Transaction հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Transaction {{ id }}?"
+      },
+      "detail": {
+        "title": "Transaction"
+      },
+      "id": "ID",
+      "sumOfMoney": "Sum Of Money",
+      "message": "Message",
+      "wasPaid": "Was Paid",
+      "dateOfPayment": "Date Of Payment",
+      "createdDate": "Created Date",
+      "recipient": "Recipient",
+      "activities": "Activities"
+    }
+  }
+}

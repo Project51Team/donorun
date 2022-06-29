@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Transaction.
+    -->
+    <changeSet id="20220629135657-1" author="jhipster">
+        <createTable tableName="transaction">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="sum_of_money" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="message" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="was_paid" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_of_payment" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="created_date" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="recipient_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+        <dropDefaultValue tableName="transaction" columnName="date_of_payment" columnDataType="${datetimeType}"/>
+        <dropDefaultValue tableName="transaction" columnName="created_date" columnDataType="${datetimeType}"/>
+    </changeSet>
+
+    <changeSet id="20220629135657-1-relations" author="jhipster">
+
+        <createTable tableName="rel_transaction__activities">
+            <column name="activities_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="transaction_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <addPrimaryKey columnNames="transaction_id, activities_id" tableName="rel_transaction__activities"/>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20220629135657-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/transaction.csv"
+                  separator=";"
+                  tableName="transaction"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="sum_of_money" type="numeric"/>
+            <column name="message" type="string"/>
+            <column name="was_paid" type="boolean"/>
+            <column name="date_of_payment" type="date"/>
+            <column name="created_date" type="date"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

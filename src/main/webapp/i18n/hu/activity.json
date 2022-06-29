@@ -1,0 +1,39 @@
+{
+  "donorunApp": {
+    "activity": {
+      "home": {
+        "title": "Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Activity létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Activityt",
+        "notFound": "No Activities found"
+      },
+      "created": "Egy új Activity lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Activity módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Activity törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Activityt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Activity"
+      },
+      "id": "ID",
+      "title": "Title",
+      "distance": "Distance",
+      "avgPace": "Avg Pace",
+      "movingTime": "Moving Time",
+      "calories": "Calories",
+      "avgHeartRate": "Avg Heart Rate",
+      "sportType": "Sport Type",
+      "imageUrl": "Image Url",
+      "valid": "Valid",
+      "publicActivity": "Public Activity",
+      "amountOfMoney": "Amount Of Money",
+      "wasPaid": "Was Paid",
+      "activityDate": "Activity Date",
+      "createdDate": "Created Date",
+      "account": "Account",
+      "transactions": "Transactions"
+    }
+  }
+}

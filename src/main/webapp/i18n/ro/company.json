@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "company": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Company",
+        "createOrEditLabel": "Creeare sau editare Company",
+        "notFound": "No Companies found"
+      },
+      "created": "A fost creată o nouă entitate Company cu identificatorul {{ param }}",
+      "updated": "Company cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Company cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "imageUrl": "Image Url",
+      "url": "Url",
+      "publicActivities": "Public Activities",
+      "employees": "Employees"
+    }
+  }
+}

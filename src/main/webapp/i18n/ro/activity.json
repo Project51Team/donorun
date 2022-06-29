@@ -1,0 +1,39 @@
+{
+  "donorunApp": {
+    "activity": {
+      "home": {
+        "title": "Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Activity",
+        "createOrEditLabel": "Creeare sau editare Activity",
+        "notFound": "No Activities found"
+      },
+      "created": "A fost creată o nouă entitate Activity cu identificatorul {{ param }}",
+      "updated": "Activity cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Activity cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Activity {{ id }}?"
+      },
+      "detail": {
+        "title": "Activity"
+      },
+      "id": "ID",
+      "title": "Title",
+      "distance": "Distance",
+      "avgPace": "Avg Pace",
+      "movingTime": "Moving Time",
+      "calories": "Calories",
+      "avgHeartRate": "Avg Heart Rate",
+      "sportType": "Sport Type",
+      "imageUrl": "Image Url",
+      "valid": "Valid",
+      "publicActivity": "Public Activity",
+      "amountOfMoney": "Amount Of Money",
+      "wasPaid": "Was Paid",
+      "activityDate": "Activity Date",
+      "createdDate": "Created Date",
+      "account": "Account",
+      "transactions": "Transactions"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "fitnessAccount": {
+      "home": {
+        "title": "FitnessAccounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Fitness Account létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Fitness Accountt",
+        "notFound": "No Fitness Accounts found"
+      },
+      "created": "Egy új Fitness Account lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Fitness Account módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Fitness Account törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Fitness Accountt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Fitness Account"
+      },
+      "id": "ID",
+      "fitnessAccountType": "Fitness Account Type",
+      "url": "Url",
+      "nickname": "Nickname",
+      "isActive": "Is Active",
+      "createdDate": "Created Date",
+      "employee": "Employee"
+    }
+  }
+}

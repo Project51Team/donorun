@@ -1,0 +1,176 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-activity-heading" data-cy="ActivityCreateUpdateHeading" jhiTranslate="donorunApp.activity.home.createOrEditLabel">
+        Create or edit a Activity
+      </h2>
+
+      <div>
+        <jhi-alert-error></jhi-alert-error>
+
+        <div class="row mb-3" [hidden]="editForm.get('id')!.value == null">
+          <label class="form-label" jhiTranslate="global.field.id" for="field_id">ID</label>
+          <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.title" for="field_title">Title</label>
+          <input type="text" class="form-control" name="title" id="field_title" data-cy="title" formControlName="title" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.distance" for="field_distance">Distance</label>
+          <input type="number" class="form-control" name="distance" id="field_distance" data-cy="distance" formControlName="distance" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.avgPace" for="field_avgPace">Avg Pace</label>
+          <input type="number" class="form-control" name="avgPace" id="field_avgPace" data-cy="avgPace" formControlName="avgPace" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.movingTime" for="field_movingTime">Moving Time</label>
+          <input
+            type="text"
+            class="form-control"
+            name="movingTime"
+            id="field_movingTime"
+            data-cy="movingTime"
+            formControlName="movingTime"
+          />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.calories" for="field_calories">Calories</label>
+          <input type="number" class="form-control" name="calories" id="field_calories" data-cy="calories" formControlName="calories" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.avgHeartRate" for="field_avgHeartRate">Avg Heart Rate</label>
+          <input
+            type="number"
+            class="form-control"
+            name="avgHeartRate"
+            id="field_avgHeartRate"
+            data-cy="avgHeartRate"
+            formControlName="avgHeartRate"
+          />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.sportType" for="field_sportType">Sport Type</label>
+          <select class="form-control" name="sportType" formControlName="sportType" id="field_sportType" data-cy="sportType">
+            <option [ngValue]="null">{{ 'donorunApp.SportType.null' | translate }}</option>
+            <option *ngFor="let sportType of sportTypeValues" [value]="sportType">
+              {{ 'donorunApp.SportType.' + sportType | translate }}
+            </option>
+          </select>
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.imageUrl" for="field_imageUrl">Image Url</label>
+          <input type="text" class="form-control" name="imageUrl" id="field_imageUrl" data-cy="imageUrl" formControlName="imageUrl" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.valid" for="field_valid">Valid</label>
+          <input type="checkbox" class="form-check" name="valid" id="field_valid" data-cy="valid" formControlName="valid" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.publicActivity" for="field_publicActivity">Public Activity</label>
+          <input
+            type="checkbox"
+            class="form-check"
+            name="publicActivity"
+            id="field_publicActivity"
+            data-cy="publicActivity"
+            formControlName="publicActivity"
+          />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.amountOfMoney" for="field_amountOfMoney">Amount Of Money</label>
+          <input
+            type="number"
+            class="form-control"
+            name="amountOfMoney"
+            id="field_amountOfMoney"
+            data-cy="amountOfMoney"
+            formControlName="amountOfMoney"
+          />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.wasPaid" for="field_wasPaid">Was Paid</label>
+          <input type="checkbox" class="form-check" name="wasPaid" id="field_wasPaid" data-cy="wasPaid" formControlName="wasPaid" />
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.activityDate" for="field_activityDate">Activity Date</label>
+          <div class="input-group">
+            <input
+              id="field_activityDate"
+              data-cy="activityDate"
+              type="text"
+              class="form-control"
+              name="activityDate"
+              ngbDatepicker
+              #activityDateDp="ngbDatepicker"
+              formControlName="activityDate"
+            />
+            <button type="button" class="btn btn-secondary" (click)="activityDateDp.toggle()">
+              <fa-icon icon="calendar-alt"></fa-icon>
+            </button>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.createdDate" for="field_createdDate">Created Date</label>
+          <div class="d-flex">
+            <input
+              id="field_createdDate"
+              data-cy="createdDate"
+              type="datetime-local"
+              class="form-control"
+              name="createdDate"
+              formControlName="createdDate"
+              placeholder="YYYY-MM-DD HH:mm"
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <label class="form-label" jhiTranslate="donorunApp.activity.account" for="field_account">Account</label>
+          <select class="form-control" id="field_account" data-cy="account" name="account" formControlName="account">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="
+                fitnessAccountOption.id === editForm.get('account')!.value?.id ? editForm.get('account')!.value : fitnessAccountOption
+              "
+              *ngFor="let fitnessAccountOption of fitnessAccountsSharedCollection; trackBy: trackFitnessAccountById"
+            >
+              {{ fitnessAccountOption.id }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

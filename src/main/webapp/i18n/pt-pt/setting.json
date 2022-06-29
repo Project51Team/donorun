@@ -1,0 +1,28 @@
+{
+  "donorunApp": {
+    "setting": {
+      "home": {
+        "title": "Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Setting",
+        "createOrEditLabel": "Criar ou editar Setting",
+        "notFound": "Nenhum Settings encontrado"
+      },
+      "created": "Um novo Setting foi criado com o identificador {{ param }}",
+      "updated": "Setting com identificador {{ param }} foi actualizado",
+      "deleted": "Setting com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Setting {{ id }}?"
+      },
+      "detail": {
+        "title": "Setting"
+      },
+      "id": "ID",
+      "code": "Code",
+      "description": "Description",
+      "type": "Type",
+      "value": "Value",
+      "company": "Company"
+    }
+  }
+}

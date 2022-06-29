@@ -2,12 +2,28 @@ entity Company {
   name String
   description String
   imageUrl String
-  siteUrl String
+  url String
   publicActivities Boolean // true: available on the internet
 }
 
 relationship ManyToMany {
   Company{employees} to User
+}
+
+enum FitnessAccountType {
+    STRAVA, APPLE_HEALTH, GOOGLE_FIT, GARMIN_CONNECT
+}
+
+entity FitnessAccount {
+	fitnessAccountType FitnessAccountType
+	url String
+    nickname String
+	isActive Boolean
+    createdDate Instant
+}
+
+relationship ManyToOne {
+	FitnessAccount{employee} to User
 }
 
 entity Activity {
@@ -18,7 +34,7 @@ entity Activity {
     calories Integer
     avgHeartRate Double
     sportType SportType
-
+	imageUrl String 
     valid Boolean
     publicActivity Boolean // true: visible within the company
     
@@ -35,9 +51,8 @@ enum SportType {
 
 
 relationship ManyToOne {
-	Activity{sportsman} to User
+	Activity{account} to FitnessAccount
 }
-
 
 entity Transaction {
   sumOfMoney Double

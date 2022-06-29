@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "moneyRecipient": {
+      "home": {
+        "title": "MoneyRecipients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Money Recipient létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Money Recipientt",
+        "notFound": "No Money Recipients found"
+      },
+      "created": "Egy új Money Recipient lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Money Recipient módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Money Recipient törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Money Recipientt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Money Recipient"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "avatarUrl": "Avatar Url",
+      "siteUrl": "Site Url",
+      "recipientType": "Recipient Type",
+      "accountDetails": "Account Details"
+    }
+  }
+}

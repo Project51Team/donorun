@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "fitnessAccount": {
+      "home": {
+        "title": "Fitness Accounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Fitness Account",
+        "createOrEditLabel": "Criar ou editar Fitness Account",
+        "notFound": "Nenhum Fitness Accounts encontrado"
+      },
+      "created": "Um novo Fitness Account foi criado com o identificador {{ param }}",
+      "updated": "Fitness Account com identificador {{ param }} foi actualizado",
+      "deleted": "Fitness Account com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Fitness Account {{ id }}?"
+      },
+      "detail": {
+        "title": "Fitness Account"
+      },
+      "id": "ID",
+      "fitnessAccountType": "Fitness Account Type",
+      "url": "Url",
+      "nickname": "Nickname",
+      "isActive": "Is Active",
+      "createdDate": "Created Date",
+      "employee": "Employee"
+    }
+  }
+}

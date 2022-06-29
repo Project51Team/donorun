@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "fitnessAccount": {
+      "home": {
+        "title": "Fitness Accounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Fitness Account",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Fitness Account",
+        "notFound": "No Fitness Accounts found"
+      },
+      "created": "Նոր Fitness Account ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Fitness Account թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Fitness Account հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Fitness Account {{ id }}?"
+      },
+      "detail": {
+        "title": "Fitness Account"
+      },
+      "id": "ID",
+      "fitnessAccountType": "Fitness Account Type",
+      "url": "Url",
+      "nickname": "Nickname",
+      "isActive": "Is Active",
+      "createdDate": "Created Date",
+      "employee": "Employee"
+    }
+  }
+}

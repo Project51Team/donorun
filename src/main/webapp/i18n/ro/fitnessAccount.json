@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "fitnessAccount": {
+      "home": {
+        "title": "Fitness Accounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Fitness Account",
+        "createOrEditLabel": "Creeare sau editare Fitness Account",
+        "notFound": "No Fitness Accounts found"
+      },
+      "created": "A fost creată o nouă entitate Fitness Account cu identificatorul {{ param }}",
+      "updated": "Fitness Account cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Fitness Account cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Fitness Account {{ id }}?"
+      },
+      "detail": {
+        "title": "Fitness Account"
+      },
+      "id": "ID",
+      "fitnessAccountType": "Fitness Account Type",
+      "url": "Url",
+      "nickname": "Nickname",
+      "isActive": "Is Active",
+      "createdDate": "Created Date",
+      "employee": "Employee"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "donorunApp": {
+    "company": {
+      "home": {
+        "title": "Company",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Company",
+        "createOrEditLabel": "Dodaj lub edytuj: Company",
+        "notFound": "No Companies found"
+      },
+      "created": "Utworzono nowy obiekt typu Company z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Company z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Company z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "imageUrl": "Image Url",
+      "url": "Url",
+      "publicActivities": "Public Activities",
+      "employees": "Employees"
+    }
+  }
+}

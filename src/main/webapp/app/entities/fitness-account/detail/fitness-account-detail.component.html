@@ -1,0 +1,54 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="fitnessAccount">
+      <h2 data-cy="fitnessAccountDetailsHeading"><span jhiTranslate="donorunApp.fitnessAccount.detail.title">Fitness Account</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.fitnessAccountType">Fitness Account Type</span></dt>
+        <dd>
+          <span jhiTranslate="{{ 'donorunApp.FitnessAccountType.' + fitnessAccount.fitnessAccountType }}">{{
+            fitnessAccount.fitnessAccountType
+          }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.url">Url</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.url }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.nickname">Nickname</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.nickname }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.isActive">Is Active</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.isActive }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.createdDate">Created Date</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.createdDate | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="donorunApp.fitnessAccount.employee">Employee</span></dt>
+        <dd>
+          <span>{{ fitnessAccount.employee?.id }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/fitness-account', fitnessAccount.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

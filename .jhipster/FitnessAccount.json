@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20220629170755",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "fitness_account",
+  "fields": [
+    {
+      "fieldName": "fitnessAccountType",
+      "fieldType": "FitnessAccountType",
+      "fieldValues": "STRAVA,APPLE_HEALTH,GOOGLE_FIT,GARMIN_CONNECT"
+    },
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nickname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "FitnessAccount",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "fitnessAccount",
+      "relationshipName": "employee",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

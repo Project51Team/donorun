@@ -10,6 +10,12 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "company": "Company",
+        "activity": "Activity",
+        "transaction": "Transaction",
+        "moneyRecipient": "Money Recipient",
+        "setting": "Setting",
+        "fitnessAccount": "Fitness Account",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

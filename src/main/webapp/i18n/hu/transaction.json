@@ -1,0 +1,30 @@
+{
+  "donorunApp": {
+    "transaction": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Transaction létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Transactiont",
+        "notFound": "No Transactions found"
+      },
+      "created": "Egy új Transaction lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Transaction módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Transaction törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Transactiont {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Transaction"
+      },
+      "id": "ID",
+      "sumOfMoney": "Sum Of Money",
+      "message": "Message",
+      "wasPaid": "Was Paid",
+      "dateOfPayment": "Date Of Payment",
+      "createdDate": "Created Date",
+      "recipient": "Recipient",
+      "activities": "Activities"
+    }
+  }
+}

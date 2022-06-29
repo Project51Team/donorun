@@ -1,0 +1,87 @@
+{
+  "applications": "*",
+  "changelogDate": "20220629135656",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "activity",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "distance",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "avgPace",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "movingTime",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "calories",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "avgHeartRate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "sportType",
+      "fieldType": "SportType",
+      "fieldValues": "RUN,RIDE,SWIM"
+    },
+    {
+      "fieldName": "imageUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valid",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "publicActivity",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "amountOfMoney",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "wasPaid",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "activityDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Activity",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "fitnessAccount",
+      "otherEntityRelationshipName": "activity",
+      "relationshipName": "account",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "transaction",
+      "otherEntityRelationshipName": "activities",
+      "ownerSide": false,
+      "relationshipName": "transactions",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
