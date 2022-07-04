@@ -3,6 +3,7 @@ on:
   pull_request:
     types:
       - opened
+      - edited
   push:
     branches:
       - 'master'
@@ -14,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: gradle/wrapper-validation-action@v1
   pipeline:
-    name: donorun pipeline
+    name: 'Build & Test'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
