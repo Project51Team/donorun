@@ -9,36 +9,6 @@ on:
       - 'master'
       - 'release/**'
 jobs:
-  validation:
-    name: 'Gradle Wrapper Validation'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: gradle/wrapper-validation-action@v1
   pipeline:
     name: 'Build & Test'
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    env:
-      NODE_VERSION: 16.14.0
-      SPRING_OUTPUT_ANSI_ENABLED: DETECT
-      SPRING_JPA_SHOW_SQL: false
-      JHI_DISABLE_WEBPACK_LOGS: true
-      NG_CLI_ANALYTICS: false
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'adopt'
-          java-version: 11
-      - name: Install node.js packages
-        run: npm install
-      - name: Run backend test
-        run: |
-          chmod +x gradlew
-          npm run ci:backend:test
-      - name: Run frontend test
-        run: npm run ci:frontend:test
+    uses: './.github/workflows/build-test.yml'
