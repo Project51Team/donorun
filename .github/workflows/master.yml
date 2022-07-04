@@ -1,9 +1,5 @@
-name: Application CI
+name: Master CI
 on:
-  pull_request:
-    types:
-      - opened
-      - edited
   push:
     branches:
       - 'master'
