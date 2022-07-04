@@ -5,10 +5,9 @@ on:
       - opened
       - edited
   push:
-    branches:
-      - '*'
     branches-ignore:
       - 'master'
+      - 'release/**'
 jobs:
   validation:
     name: 'Gradle Wrapper Validation'
