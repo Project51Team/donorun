@@ -1,3 +1,6 @@
+Status of the last master pipeline:<br>
+<img src="https://github.com/Project51Team/donorun/actions/workflows/master.yml/badge.svg"><br>
+
 # donorun
 
 This application was generated using JHipster 7.8.1, you can find documentation and help at [https://www.jhipster.tech](https://www.jhipster.tech).
@@ -77,7 +80,7 @@ JHipster ships with PWA (Progressive Web App) support, and it's turned off by de
 The service worker initialization code is disabled by default. To enable it, uncomment the following code in `src/main/webapp/app/app.module.ts`:
 
 ```typescript
-ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
+ServiceWorkerModule.register('ngsw-worker.js', { enabled: false });
 ```
 
 ### Managing dependencies

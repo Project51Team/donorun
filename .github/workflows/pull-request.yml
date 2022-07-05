@@ -3,11 +3,7 @@ on:
   pull_request:
     types:
       - opened
-      - edited
-  push:
-    branches-ignore:
-      - 'master'
-      - 'release/**'
+      - synchronize
 jobs:
   pipeline:
     name: 'Build & Test'
