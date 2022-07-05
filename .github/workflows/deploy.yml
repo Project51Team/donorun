@@ -1,6 +1,11 @@
 name: Deploy
 on:
   workflow_call:
+    secrets:
+      AWS_ACCESS_KEY_ID_REPO:
+        required: true
+      AWS_SECRET_ACCESS_KEY_REPO:
+        required: true
 env:
   AWS_DEFAULT_REGION: us-east-1
 jobs:

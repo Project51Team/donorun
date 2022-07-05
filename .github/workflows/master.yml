@@ -11,3 +11,6 @@ jobs:
     needs: [ ci-pipeline ]
     name: 'Deploy'
     uses: './.github/workflows/deploy.yml'
+    secrets:
+      AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
+      AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
