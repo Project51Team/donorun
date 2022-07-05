@@ -3,15 +3,16 @@ description: 'AWS session establishment'
 inputs:
   AWS_ACCESS_KEY_ID_REPO:
     required: true
-  AWS_SECRET_ACCESS_KEY:
+    description: "aaaa"
+  AWS_SECRET_ACCESS_KEY_REPO:
     required: true
-env:
-  AWS_ACCESS_KEY_ID: ${{ inputs.AWS_ACCESS_KEY_ID_REPO }}
-  AWS_SECRET_ACCESS_KEY: ${{ inputs.AWS_SECRET_ACCESS_KEY }}
+    description: "aaaa"
 runs:
   using: "composite"
   steps:
     - run: |
+        export AWS_ACCESS_KEY_ID=${{ inputs.AWS_ACCESS_KEY_ID_REPO }}
+        export AWS_SECRET_ACCESS_KEY=${{ inputs.AWS_SECRET_ACCESS_KEY_REPO }}
         accessData=`aws sts assume-role --role-arn "arn:aws:iam::242906888793:role/AWS_Sandbox" --role-session-name MaksimUlyanov`
         export AWS_ACCESS_KEY_ID=`echo $accessData | jq .Credentials.AccessKeyId -r`
         export AWS_SESSION_TOKEN=`echo $accessData | jq .Credentials.SessionToken -r`
