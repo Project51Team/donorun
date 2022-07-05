@@ -1,0 +1,14 @@
+name: Pull request CI
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+  push:
+    branches-ignore:
+      - 'master'
+      - 'release/**'
+jobs:
+  pipeline:
+    name: 'Build & Test'
+    uses: './.github/workflows/build-test.yml'

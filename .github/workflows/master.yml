@@ -1,0 +1,9 @@
+name: Master CI
+on:
+  push:
+    branches:
+      - 'master'
+jobs:
+  pipeline:
+    name: 'Build & Test'
+    uses: './.github/workflows/build-test.yml'
