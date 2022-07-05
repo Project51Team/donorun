@@ -4,9 +4,6 @@ on:
     types:
       - opened
       - synchronize
-    branches-ignore:
-      - 'master'
-      - 'release/**'
 jobs:
   pipeline:
     name: 'Build & Test'
