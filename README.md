@@ -1,3 +1,6 @@
+Status of last master pipeline:<br>
+<img src="https://github.com/Project51Team/donorun/workflows/Master%20CI/bage.svg?branch=master"><br>
+
 # donorun
 
 This application was generated using JHipster 7.8.1, you can find documentation and help at [https://www.jhipster.tech](https://www.jhipster.tech).
