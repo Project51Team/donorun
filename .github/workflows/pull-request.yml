@@ -5,6 +5,16 @@ on:
       - opened
       - synchronize
 jobs:
-  pipeline:
-    name: 'Build & Test'
-    uses: './.github/workflows/build-test.yml'
+  #pipeline:
+    #name: 'Build & Test'
+    #uses: './.github/workflows/build-test.yml'
+  cd-pipeline:
+    name: 'CD pipeline'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: './github/workflows/aws-session.yml'
+        with:
+          aws_access_key_id_repo: ${{ secrets.AWS_SECRET_KEY_ID_REPO }}
+          aws_secret_access_key_repo: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+      - name: 'Check all good'
+        run: aws s3 ls
