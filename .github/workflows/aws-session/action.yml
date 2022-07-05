@@ -1,4 +1,5 @@
 name: 'AWS session'
+description: 'AWS session establishment'
 inputs:
   AWS_ACCESS_KEY_ID_REPO:
     required: true
