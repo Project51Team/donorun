@@ -1,4 +1,4 @@
-name: 'AWS session'
+name: 'Establish AWS session'
 description: 'AWS session establishment'
 inputs:
   AWS_ACCESS_KEY_ID_REPO:
@@ -7,7 +7,6 @@ inputs:
   AWS_SECRET_ACCESS_KEY_REPO:
     required: true
     description: "AWS secret access key for retrieving session credentials"
-
 runs:
   using: "composite"
   steps:

@@ -4,6 +4,10 @@ on:
     branches:
       - 'master'
 jobs:
-  pipeline:
+  ci-pipeline:
     name: 'Build & Test'
     uses: './.github/workflows/build-test.yml'
+  cd-pipeline:
+    needs: [ ci-pipeline ]
+    name: 'Deploy'
+    uses: './.github/workflows/deploy.yml'
