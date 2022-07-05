@@ -1,6 +1,5 @@
 Status of the last master pipeline:<br>
 <img src="https://github.com/Project51Team/donorun/actions/workflows/master.yml/badge.svg"><br>
-<br>
 
 # donorun
 
