@@ -18,4 +18,8 @@ jobs:
           AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
           AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
       - name: 'Check all good'
-        run: aws s3 ls
+        run: |
+          echo $AWS_ACCESS_KEY_ID
+          echo $AWS_SESSION_TOKEN
+          echo $AWS_SECRET_ACCESS_KEY
+          aws s3 ls

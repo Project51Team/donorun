@@ -18,4 +18,7 @@ runs:
         export AWS_ACCESS_KEY_ID=`echo $accessData | jq .Credentials.AccessKeyId -r`
         export AWS_SESSION_TOKEN=`echo $accessData | jq .Credentials.SessionToken -r`
         export AWS_SECRET_ACCESS_KEY=`echo $accessData | jq .Credentials.SecretAccessKey -r`
+        echo $AWS_ACCESS_KEY_ID
+        echo $AWS_SESSION_TOKEN
+        echo $AWS_SECRET_ACCESS_KEY
       shell: bash
