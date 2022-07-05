@@ -1,0 +1,21 @@
+name: 'Establish AWS session'
+description: 'AWS session establishment'
+inputs:
+  AWS_ACCESS_KEY_ID_REPO:
+    required: true
+    description: "AWS access key id for retrieving session credentials"
+  AWS_SECRET_ACCESS_KEY_REPO:
+    required: true
+    description: "AWS secret access key for retrieving session credentials"
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        export AWS_ACCESS_KEY_ID=${{ inputs.AWS_ACCESS_KEY_ID_REPO }}
+        export AWS_SECRET_ACCESS_KEY=${{ inputs.AWS_SECRET_ACCESS_KEY_REPO }}
+        accessData=`aws sts assume-role --role-arn "arn:aws:iam::242906888793:role/AWS_Sandbox" --role-session-name MaksimUlyanov`
+        echo "AWS_ACCESS_KEY_ID=`echo $accessData | jq .Credentials.AccessKeyId -r`" >> $GITHUB_ENV
+        echo "AWS_SESSION_TOKEN=`echo $accessData | jq .Credentials.SessionToken -r`" >> $GITHUB_ENV
+        echo "AWS_SECRET_ACCESS_KEY=`echo $accessData | jq .Credentials.SecretAccessKey -r`" >> $GITHUB_ENV
+        info "AWS session was successfully established"
