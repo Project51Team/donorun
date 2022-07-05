@@ -15,10 +15,8 @@ runs:
         export AWS_SECRET_ACCESS_KEY=${{ inputs.AWS_SECRET_ACCESS_KEY_REPO }}
         export AWS_DEFAULT_REGION=us-east-1
         accessData=`aws sts assume-role --role-arn "arn:aws:iam::242906888793:role/AWS_Sandbox" --role-session-name MaksimUlyanov`
-        export AWS_ACCESS_KEY_ID=`echo $accessData | jq .Credentials.AccessKeyId -r`
-        export AWS_SESSION_TOKEN=`echo $accessData | jq .Credentials.SessionToken -r`
-        export AWS_SECRET_ACCESS_KEY=`echo $accessData | jq .Credentials.SecretAccessKey -r`
-        echo $AWS_ACCESS_KEY_ID
-        echo $AWS_SESSION_TOKEN
-        echo $AWS_SECRET_ACCESS_KEY
+        echo "AWS_ACCESS_KEY_ID=`echo $accessData | jq .Credentials.AccessKeyId -r`" >> $GITHUB_ENV
+        echo "AWS_SESSION_TOKEN=`echo $accessData | jq .Credentials.SessionToken -r`" >> $GITHUB_ENV
+        echo "AWS_SECRET_ACCESS_KEY=`echo $accessData | jq .Credentials.SecretAccessKey -r`" >> $GITHUB_ENV
+        echo "AWS_DEFAULT_REGION=us-east-1" >> $GITHUB_ENV
       shell: bash
