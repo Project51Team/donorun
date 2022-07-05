@@ -1,15 +1,15 @@
-name: Pull request CI
+name: Pull request workflow
 on:
   pull_request:
     types:
       - opened
       - synchronize
 jobs:
-#  ci-pipeline:
-#    name: 'Build & Test'
-#    uses: './.github/workflows/build-test.yml'
+  ci-pipeline:
+    name: 'Build & Test'
+    uses: './.github/workflows/build-test.yml'
   cd-pipeline:
-#    needs: [ ci-pipeline ]
+    needs: [ ci-pipeline ]
     name: 'Deploy'
     uses: './.github/workflows/deploy.yml'
     secrets:
