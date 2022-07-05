@@ -3,8 +3,7 @@ on:
   pull_request:
     types:
       - opened
-      - edited
-  push:
+      - synchronize
     branches-ignore:
       - 'master'
       - 'release/**'
