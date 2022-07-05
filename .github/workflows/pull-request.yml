@@ -16,6 +16,6 @@ jobs:
       - uses: './.github/workflows/aws-session'
         with:
           AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_SECRET_KEY_ID_REPO }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+          AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
       - name: 'Check all good'
         run: aws s3 ls
