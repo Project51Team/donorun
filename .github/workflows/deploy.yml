@@ -7,7 +7,7 @@ on:
       AWS_SECRET_ACCESS_KEY_REPO:
         required: true
 env:
-  AWS_DEFAULT_REGION: us-east-1
+  AWS_DEFAULT_REGION: us-east-2
 jobs:
   deploy:
     name: 'Deploy'
@@ -20,3 +20,14 @@ jobs:
         with:
           AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
           AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+      - name: 'Setup terraform'
+        uses: hashicorp/setup-terraform@v2
+      - name: 'Terraform init'
+        working-directory: ./donorun/infra
+        run: terraform init
+      - name: 'Terraform Plan'
+        working-directory: ./donorun/infra
+        run: terraform plan
+      - name: 'Terraform Apply'
+        working-directory: ./donorun/infra
+        run: terraform apply
