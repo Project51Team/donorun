@@ -23,11 +23,11 @@ jobs:
       - name: 'Setup terraform'
         uses: hashicorp/setup-terraform@v2
       - name: 'Terraform init'
-        working-directory: /infra
+        working-directory: ./infra
         run: terraform init
       - name: 'Terraform Plan'
-        working-directory: /infra
+        working-directory: ./infra
         run: terraform plan
       - name: 'Terraform Apply'
-        working-directory: /infra
+        working-directory: ./infra
         run: terraform apply
