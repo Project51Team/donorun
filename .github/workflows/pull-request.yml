@@ -7,11 +7,11 @@ on:
 jobs:
   build-test:
     name: 'Build & Test'
-    uses: './.github/workflows/build/build-test.yml'
+    uses: './.github/workflows/build-test.yml'
   terraform-plan:
     needs: [ build-test ]
     name: 'Terraform Plan'
-    uses: './.github/workflows/deploy/terraform-plan.yml'
+    uses: './.github/workflows/terraform-plan.yml'
     secrets:
       AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
       AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
