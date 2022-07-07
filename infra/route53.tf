@@ -12,7 +12,7 @@ resource "aws_acm_certificate_validation" "this" {
 }
 
 resource "aws_route53_record" "this" {
-  name    = "donorun.test.coherentprojects.net"
+  name    = "${var.service_name}.test.coherentprojects.net"
   type    = "A"
   zone_id = data.aws_route53_zone.this.zone_id
 

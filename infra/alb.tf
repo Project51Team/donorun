@@ -1,9 +1,7 @@
 resource "aws_s3_bucket" "alb_access_logs" {
-  bucket_prefix = "donorun-alb-access-logs"
+  bucket_prefix = "${var.service_name}-alb-access-logs"
   acl           = "private"
-  versioning {
-    enabled = false
-  }
+
   lifecycle_rule {
     enabled = true
     expiration {
@@ -12,6 +10,26 @@ resource "aws_s3_bucket" "alb_access_logs" {
   }
   force_destroy = true
   tags          = var.default_tags
+}
+
+resource "aws_s3_bucket_versioning" "alb_access_logs" {
+  bucket = aws_s3_bucket.alb_access_logs.id
+
+  versioning_configuration {
+    status = "Disabled"
+  }
+}
+
+resource "aws_s3_bucket_lifecycle_configuration" "alb_access_logs" {
+  bucket = aws_s3_bucket.alb_access_logs.id
+
+  rule {
+    status = "Enabled"
+    id     = "log"
+    expiration {
+      days = 7
+    }
+  }
 }
 
 data "aws_iam_policy_document" "alb_access_logs" {
@@ -42,7 +60,7 @@ module "alb" {
   source  = "terraform-aws-modules/alb/aws"
   version = "7.0.0"
 
-  name = "donorun-alb"
+  name = "${var.service_name}-alb"
 
   load_balancer_type = "application"
 
@@ -56,7 +74,7 @@ module "alb" {
 
   target_groups = [
     {
-      name                 = "donorun-containers"
+      name                 = "${var.service_name}-containers"
       backend_protocol     = "HTTP"
       backend_port         = 8080
       target_type          = "ip"
@@ -104,7 +122,7 @@ module "alb" {
 }
 
 resource "aws_security_group" "alb" {
-  name   = "donurun-alb"
+  name   = "${var.service_name}-alb"
   vpc_id = module.vpc.vpc_id
   tags   = var.default_tags
 }
