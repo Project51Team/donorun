@@ -33,7 +33,7 @@ data "aws_iam_policy_document" "alb_access_logs" {
   }
 }
 
-resource "aws_s3_bucket_policy" "default" {
+resource "aws_s3_bucket_policy" "alb_access_logs" {
   bucket = aws_s3_bucket.alb_access_logs.id
   policy = data.aws_iam_policy_document.alb_access_logs.json
 }
@@ -96,6 +96,10 @@ module "alb" {
   ]
 
   tags = var.default_tags
+  depends_on = [
+    aws_s3_bucket.alb_access_logs,
+    aws_s3_bucket_policy.alb_access_logs
+  ]
 }
 
 resource "aws_security_group" "alb" {
