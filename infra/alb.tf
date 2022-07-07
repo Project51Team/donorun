@@ -51,13 +51,13 @@ module "alb" {
   security_groups = [aws_security_group.alb.id]
 
   access_logs = {
-    bucket = "my-alb-logs"
+    bucket = "donorun-alb-access-logs"
   }
 
   target_groups = [
     {
       name                 = "donorun-containers"
-      backend_protocol     = "TCP"
+      backend_protocol     = "HTTP"
       backend_port         = 8080
       target_type          = "ip"
       deregistration_delay = 5
