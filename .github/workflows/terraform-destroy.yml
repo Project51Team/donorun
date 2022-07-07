@@ -1,4 +1,4 @@
-name: Deploy
+name: Terraform Destroy
 on:
   workflow_call:
     secrets:
@@ -9,8 +9,8 @@ on:
 env:
   AWS_DEFAULT_REGION: us-east-1
 jobs:
-  deploy:
-    name: 'Deploy'
+  terraform-destroy:
+    name: 'Terraform destroy'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -20,3 +20,11 @@ jobs:
         with:
           AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
           AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+      - name: 'Setup terraform'
+        uses: hashicorp/setup-terraform@v2
+      - name: 'Terraform init'
+        working-directory: ./infra
+        run: terraform init
+      - name: 'Terraform destroy'
+        working-directory: ./infra
+        run: terraform destroy -auto-approve
