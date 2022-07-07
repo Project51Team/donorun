@@ -51,7 +51,7 @@ module "alb" {
   security_groups = [aws_security_group.alb.id]
 
   access_logs = {
-    bucket = "donorun-alb-access-logs"
+    bucket = aws_s3_bucket.alb_access_logs.bucket
   }
 
   target_groups = [
@@ -96,6 +96,7 @@ module "alb" {
   ]
 
   tags = var.default_tags
+
   depends_on = [
     aws_s3_bucket.alb_access_logs,
     aws_s3_bucket_policy.alb_access_logs
