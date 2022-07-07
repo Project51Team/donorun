@@ -1,13 +1,6 @@
 resource "aws_s3_bucket" "alb_access_logs" {
   bucket_prefix = "${var.service_name}-alb-access-logs"
   acl           = "private"
-
-  lifecycle_rule {
-    enabled = true
-    expiration {
-      days = 7
-    }
-  }
   force_destroy = true
   tags          = var.default_tags
 }

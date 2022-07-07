@@ -1,4 +1,4 @@
-name: Deploy
+name: Terraform Destroy
 on:
   workflow_call:
     secrets:
@@ -9,8 +9,8 @@ on:
 env:
   AWS_DEFAULT_REGION: us-east-1
 jobs:
-  deploy:
-    name: 'Deploy'
+  terraform-destroy:
+    name: 'Terraform destroy'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -25,13 +25,6 @@ jobs:
       - name: 'Terraform init'
         working-directory: ./infra
         run: terraform init
-      - name: 'Terraform Plan'
-        working-directory: ./infra
-        run: terraform plan
-      - name: 'Terraform Apply'
-        working-directory: ./infra
-        run: terraform apply -auto-approve
       - name: 'Terraform destroy'
-        if: ${{ false }}
         working-directory: ./infra
         run: terraform destroy -auto-approve

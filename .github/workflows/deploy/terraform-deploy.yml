@@ -1,0 +1,30 @@
+name: Terraform Deploy
+on:
+  workflow_call:
+    secrets:
+      AWS_ACCESS_KEY_ID_REPO:
+        required: true
+      AWS_SECRET_ACCESS_KEY_REPO:
+        required: true
+env:
+  AWS_DEFAULT_REGION: us-east-1
+jobs:
+  terraform-deploy:
+    name: 'Terraform Deploy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v3
+      - name: 'Establish AWS session'
+        uses: './.github/actions/aws-session'
+        with:
+          AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
+          AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+      - name: 'Setup terraform'
+        uses: hashicorp/setup-terraform@v2
+      - name: 'Terraform init'
+        working-directory: ./infra
+        run: terraform init
+      - name: 'Terraform Apply'
+        working-directory: ./infra
+        run: terraform apply -auto-approve
