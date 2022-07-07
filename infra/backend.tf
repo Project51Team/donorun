@@ -3,6 +3,6 @@ terraform {
   backend "s3" {
     bucket = "donorun-tf-state"
     key    = "donorun.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 }

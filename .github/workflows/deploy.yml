@@ -7,7 +7,7 @@ on:
       AWS_SECRET_ACCESS_KEY_REPO:
         required: true
 env:
-  AWS_DEFAULT_REGION: us-east-2
+  AWS_DEFAULT_REGION: us-east-1
 jobs:
   deploy:
     name: 'Deploy'
@@ -25,14 +25,13 @@ jobs:
       - name: 'Terraform init'
         working-directory: ./infra
         run: terraform init
-      - name: 'Terraform destroy'
-        working-directory: ./infra
-        run: terraform destroy -auto-approve
       - name: 'Terraform Plan'
-        if: ${{ false }}
         working-directory: ./infra
         run: terraform plan
       - name: 'Terraform Apply'
-        if: ${{ false }}
         working-directory: ./infra
         run: terraform apply -auto-approve
+      - name: 'Terraform destroy'
+        if: ${{ false }}
+        working-directory: ./infra
+        run: terraform destroy -auto-approve
