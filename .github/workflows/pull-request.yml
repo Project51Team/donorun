@@ -20,7 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Ls root'
-        run: |
-          ls
-          cd .docker
-          cat config.json
+        run: ls
