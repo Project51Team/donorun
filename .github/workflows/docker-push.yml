@@ -28,4 +28,6 @@ jobs:
       - name: 'Setup Docker ECR Credentials Helper'
         run: echo $(jq '.credHelpers += {"242906888793.dkr.ecr.us-east-1.amazonaws.com":"ecr-login"}' ~/.docker/config.json) > $HOME/.docker/config.json
       - name: 'Build & Push Image To ECR'
-        run: ./gradlew -Pprod bootJar jib
+        run: |
+          chmod +x gradlew
+          npm run java:docker:no-daemon

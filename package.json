@@ -38,6 +38,7 @@
     "docker:redis:up": "docker-compose -f src/main/docker/redis.yml up -d",
     "java:docker": "./gradlew bootJar -Pprod jibDockerBuild",
     "java:docker:dev": "npm run java:docker -- -Pdev,webapp",
+    "java:docker:no-daemon": "./gradlew bootJar -Pprod jib",
     "java:docker:prod": "npm run java:docker -- -Pprod",
     "java:jar": "./gradlew bootJar -x test -x integrationTest",
     "java:jar:dev": "npm run java:jar -- -Pdev,webapp",
