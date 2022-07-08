@@ -1,6 +1,6 @@
 jib {
     from {
-        image = "openjdk:17-alpine"
+        image = "openjdk:11.0-jre-slim"
     }
     to {
         image = "242906888793.dkr.ecr.us-east-1.amazonaws.com/donorun"
