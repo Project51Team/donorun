@@ -14,3 +14,10 @@ jobs:
     secrets:
       AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
       AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
+  docker-push:
+    needs: [ terraform-deploy ]
+    name: 'Docker Push'
+    uses: './.github/workflows/docker-push.yml'
+    secrets:
+      AWS_ACCESS_KEY_ID_REPO: ${{ secrets.AWS_ACCESS_KEY_ID_REPO }}
+      AWS_SECRET_ACCESS_KEY_REPO: ${{ secrets.AWS_SECRET_ACCESS_KEY_REPO }}
