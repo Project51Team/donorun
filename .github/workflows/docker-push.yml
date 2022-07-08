@@ -26,5 +26,5 @@ jobs:
         working-directory: ./amazon-ecr-credential-helper
         run: make docker
       - name: 'Setup Docker'
-        run: jq '.credHelpers += {"242906888793.dkr.ecr.us-east-1.amazonaws.com":"ecr-login"}' ~/.docker/config.json > ~/.docker/config.json
+        run: jq '.credHelpers += {"242906888793.dkr.ecr.us-east-1.amazonaws.com":"ecr-login"}' ~/.docker/config.json > $HOME/.docker/config.json
       - run: cat ~/.docker/config.json
