@@ -1,9 +1,10 @@
 jib {
     from {
-        image = "eclipse-temurin:11-jre-focal"
+        image = "openjdk:11.0-jre-slim"
     }
     to {
-        image = "donorun:latest"
+        image = "242906888793.dkr.ecr.us-east-1.amazonaws.com/donorun"
+        tags = ["latest", "${project.name}-${System.getenv("GITHUB_SHA")}"]
     }
     container {
         entrypoint = ["bash", "-c", "/entrypoint.sh"]
