@@ -22,3 +22,11 @@ resource "aws_route53_record" "this" {
     evaluate_target_health = true
   }
 }
+
+resource "aws_route53_record" "this" {
+  name    = "redis.${var.service_name}.test.coherentprojects.net"
+  type    = "CNAME"
+  zone_id = data.aws_route53_zone.this.zone_id
+
+  records = [aws_elasticache_cluster.this.cluster_address]
+}
