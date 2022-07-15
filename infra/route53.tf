@@ -27,6 +27,7 @@ resource "aws_route53_record" "elasticache" {
   name    = "redis.${var.service_name}.test.coherentprojects.net"
   type    = "CNAME"
   zone_id = data.aws_route53_zone.this.zone_id
+  ttl     = 300
 
   records = ["donorun.blmvka.0001.use1.cache.amazonaws.com"]
 }
