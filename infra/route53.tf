@@ -23,7 +23,7 @@ resource "aws_route53_record" "this" {
   }
 }
 
-resource "aws_route53_record" "this" {
+resource "aws_route53_record" "elasticache" {
   name    = "redis.${var.service_name}.test.coherentprojects.net"
   type    = "CNAME"
   zone_id = data.aws_route53_zone.this.zone_id
