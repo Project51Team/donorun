@@ -40,7 +40,7 @@ services:
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - SPRING_PROFILES_ACTIVE=prod,api-docs,no
-      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - JHIPSTER_SLEEP=10 # gives time for other services to boot before the application
       - SPRING_SECURITY_USER_PASSWORD=admin
       # The token should have the same value than the one declared in you Spring configuration under the jhipster.security.authentication.jwt.base64-secret configuration's entry
       - JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET=MWE2ZmRhNGQ3OTI5MjJjMDk5NDc3MTUzMzViMjE3Y2Y1NTgyN2I1YmU5YTJiN2RhYWU2MDU4NDU4YzY3ZTMzOTQ4ODEzOTE3MDRkODA3NDcxYzZhMDI4ZGExYTVlMDQ5OWExOThjYTMyMDg5OTdjZDAxZTY0OWI1NzFhYzdhNWE=

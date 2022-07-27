@@ -1,6 +1,6 @@
 jib {
     from {
-        image = "openjdk:11.0-jre-slim"
+        image = "openjdk:17.0.2-jdk-slim"
     }
     to {
         image = "242906888793.dkr.ecr.us-east-1.amazonaws.com/donorun"
@@ -11,7 +11,7 @@ jib {
         ports = ["8080"]
         environment = [
             SPRING_OUTPUT_ANSI_ENABLED: "ALWAYS",
-            JHIPSTER_SLEEP: "0"
+            JHIPSTER_SLEEP: "10"
         ]
         creationTime = "USE_CURRENT_TIMESTAMP"
         user = 1000
